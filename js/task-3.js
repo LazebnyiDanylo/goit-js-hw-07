@@ -5,6 +5,5 @@ input.addEventListener("input", (event) => {
     output.textContent = event.target.value.trim();
   } else {
     output.textContent = "Anonymous";
-    console.log(event.target.value.trim());
   }
 });
